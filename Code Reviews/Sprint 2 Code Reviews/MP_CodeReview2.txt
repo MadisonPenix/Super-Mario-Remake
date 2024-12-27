@@ -1,0 +1,21 @@
+Author of the code review: Madison Penix
+
+Date of the code review: 09/28/2023 11:27pm
+
+Sprint number: 2
+
+Name of the .cs file being reviewed: SpriteFactory.cs
+
+Author of the .cs file being reviewed: Aaron Zhang
+
+Specific comments on code quality:
+	- private members of the class are grouped together, using single spritesheets for each type of sprite is good practice
+	- Lots of constants, could be read from a textfile in the future to save space and increase readability
+	- including different character specs will help with future collision handling
+	- good use of comments to divide up sprite categories
+	- overall extremely long, could possibly be refactored into smaller classes based on sprite categories
+	- a lot of repeated code that could be refactored within each method
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change
+	- In the future, could include more characters of Mario within the game such as more enemies. The current implementation could support this but 
+		would only add to the problem of increasing file length and possibly repeated code

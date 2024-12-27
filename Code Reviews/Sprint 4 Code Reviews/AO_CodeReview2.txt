@@ -1,0 +1,27 @@
+﻿Author: Aidan Ormsbee
+Date: 11/10/2023
+Sprint 4
+Code being Reviewed: Flagpole/Level Clear State
+Author of .cs file: Joseph Daprano
+
+- Good idea to not let player able to pause during this state
+	- don't think it's implemented yet but the idea and indication of the plan to do so is nice
+- Constructor looks normal, and sets up the player for the animation using pre-existing commands,
+	which is nice to see instead of writing new code that didn't need to be written for it
+- was wondering why viewportCenter couldn't just be a field and initialized in the constructor
+	(where GraphicsDevice is already being used) but then I saw that it wasn't being used in the 
+	Draw() method at all in the first place
+	- I think this code comes from GameState and I'm not sure why it isn't being used there either,
+		or whether there's any idea of what it'll be used for. I don't believe the Viewport center
+		has to be initialized in Draw() anyways
+- Update seems similar to Update in GameState, with the code that would be redundant for LevelClear
+	to use being removed. I think it's good to keep the method similar among the game states, changing
+	whatever's necessary
+	- DescendFlagPoleAnimation is called at the top, so it's being called every time Update is
+		called. DescendFlagpoleAnimation uses the player's y-position so it makes sense for Update to
+		give it the updated position.
+- UpdateCamera is simply taking the x-position of the player and checking if the player is past a 
+	certain x-coordinate, and if it is, stop following the player so we don't go off-screen.
+	- Simple, and roughly the same as how the beginning of levels work too (Camera doesn't start 
+		following Mario until he reaches a certain x-coordinate)
+- Class has notes indicating what needs to be changed/improved, but looks pretty nice now

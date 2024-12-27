@@ -1,0 +1,15 @@
+Author: Joseph Daprano
+Date: 11/10/2023
+Sprint 4
+Code being reviewed: PlayerLives.cs
+Author of code being reviewed: Ella Langenderfer
+
+Functionality:
+
+    Overall looks pretty good, simple and effective code for what it is doing
+    In its current state, not sure how to get out of the main menu, so I can't really test if it works, but code is so minimal I don't see anywhere it would obviously break
+
+Code Quality:
+
+    looks good overall, sleek and minimal code
+    follows proper naming and capitalization conventions and uses comments where necessary but not where they are not

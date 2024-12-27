@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level name="Super_Mario_1-1_Underworld">
+	<Camera>disabled</Camera>
+
+	<BackgroundColor>
+		<r>0</r>
+		<g>0</g>
+		<b>0</b>
+	</BackgroundColor>
+	
+	<LevelData>
+		<WorldNumber>"1-1"</WorldNumber>
+	</LevelData>
+
+	
+	<Blocks collidable="1">
+		<CrackedBrickBlock length="3">
+			<Position>1 0</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="2">
+			<Position>11 0</Position>
+		</CrackedBrickBlock>
+		
+		<BrickBlock height="12">
+			<Position>0 1</Position>
+		</BrickBlock>
+
+		<BrickBlock length="8">
+			<Position>4 12</Position>
+		</BrickBlock>
+
+		<BrickBlock length="8">
+			<Position>4 3</Position>
+		</BrickBlock>
+
+		<BrickBlock height="2">
+			<Position>4 1</Position>
+		</BrickBlock>
+
+		<BrickBlock height="2">
+			<Position>11 1</Position>
+		</BrickBlock>
+
+		<PipeBlock>
+			<Position>14 2</Position>
+			<Portal>Top</Portal>
+			<Levelfile>Super_Mario_1-1.xml</Levelfile>
+			<OutputLocation>164 3</OutputLocation>
+		</PipeBlock>
+
+		<PipeSegment height ="11">
+			<Position>16 1</Position>
+		</PipeSegment>
+		
+	</Blocks>
+
+	<Blocks collidable ="0">
+		<CrackedBrickBlock>
+			<Position>0 0</Position>
+		</CrackedBrickBlock>
+		
+		<CrackedBrickBlock length="18">
+			<Position>0 -1</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="7">
+			<Position>4 0</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="5">
+			<Position>13 0</Position>
+		</CrackedBrickBlock>
+
+		<BrickBlock length="6">
+			<Position>5 2</Position>
+		</BrickBlock>
+
+		<BrickBlock length="6">
+			<Position>5 1</Position>
+		</BrickBlock>
+		
+	</Blocks>
+
+
+	<Items collidable="1">
+		<Coin length="7">
+			<Position>4 4</Position>
+		</Coin>
+
+		<Coin length="7">
+			<Position>4 6</Position>
+		</Coin>
+
+		<Coin length="5">
+			<Position>5 8</Position>
+		</Coin>
+	</Items>
+	
+</Level>

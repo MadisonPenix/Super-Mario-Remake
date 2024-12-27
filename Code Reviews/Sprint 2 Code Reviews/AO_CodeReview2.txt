@@ -1,0 +1,38 @@
+﻿Author: Aidan Ormsbee
+Date: 9/29/2023
+Sprint 2
+Name of .cs file: Projectiles (IProjectile.cs, Fireball.cs, Fireblast.cs)
+Author of .cs file: Aaron Zhang
+
+IProjectiles:
+	- Not much to say, very simple interface.
+	- Has variable for position, and Update()/Draw() methods like most/all other interfaces.
+	- Only question I have is: are you planning to build upon this interface to handle other projectiles, like the koopa shell? Or will that be dealt with on its own
+		- Koopa shell would be able to bounce off blocks and break some too, which is different from the two fire projectiles.
+
+Fireball.cs:
+	- Draw() method looks fine.
+	- As far as I can tell, enemies can't interact with the fireball, or I at least can't see it in this class (great if it's somewhere in enemies already and works, otherwise will probably need to add)
+		- For this sprint it's not a problem since they aren't supposed to interact, so this isn't something wrong with the code it's just something I thought of while reading it.
+	- As the game is now, the constructor only has one reference (Mario.cs), and 'Ground' is set to the 'GROUND' constant there.
+		- GROUND isn't changing because it's a constant, so does that mean 'Ground' here isn't either? Obviously, the ground itself isn't moving when Mario throws a fireball, but
+		I more meant if his initial vertical position would affect this code?
+			- I actually just had to look up if Mario can even shoot fireballs while jumping (he can) - does 'Ground' still allow this?
+	- Are the ints used in lines 25 and 28 placeholders? It's fine because we're testing the projectiles out still, so if they are magic numbers they won't be too difficult to work out. 
+	
+Fireblast.cs:
+	- My first thought is that this class is very similarly named to Fireball.cs, which may or may not cause confusion later, but that's a readability thing and not code quality.
+	- Smaller class than Fireball.cs, which means code is simpler (not overly simple)
+	- Draw() method looks fine
+	- Update() seems okay for now, does Bowser's fireblast stop when it hits a wall or does it keep going? I think I've seen both cases before, not sure what it's like in Mario 1
+		- If it breaks upon hitting a wall then there'll probably have to be something in this class for that too, but again, it's not needed for this sprint.
+	- Fireblast goes perfectly horizontal so no need to worry about vertical position or interactions with the ground or ceiling at all. 
+	- The code seems pretty solid and functional (for Sprint 2) 
+	
+Hypothetical Change: inclusion of more projectiles later
+	- Having only two fire projectiles for all of the "projectile classes" is fine to keep, but I feel like if we have the interface and physics, adding more would be pretty cool if we're able to.
+	- We could add other projectiles from the game like hammers, or even Bullet Bills which would be super cool as a projectile/enemy combo (I guess Koopas already sort of are that with their shells though)
+		- We can add projectiles from other Mario games too, or make our own with their own new functionalities.
+	- The IProjectile interface is a solid start for implementing new projectiles, even if most of their implementations take place inside their own classes.
+	- We'd need a more concrete game first to really start seeing how new projectiles might interact with the environment, but we'll definitely have that by Sprint 5.
+

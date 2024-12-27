@@ -1,0 +1,18 @@
+﻿Author of the code review: Madison Penix
+
+Date of the code review: 11/10/23 7:11pm
+
+Sprint number: 4
+
+Name of the .cs file being reviewed: IKoopaStateMachine.cs
+
+Author of the .cs file being reviewed: Joseph Daprano
+
+Time Taken To Review: 
+
+Specific comments on code quality:
+	- Interface is minimal and singular, which is good
+	- Flipped Koopa is inherited from the state machine but does not really use any of the methods inherited from the interface,
+	  maybe flipped states could be refactored to minimize the amount of unused methods, not just for Koopa but for all the enemy states
+	- Update method of ShellKoopaStateMachine has a nested if statement, could use boolean logic to refactor into one if-else statement
+	- Magic numbers need to go into the utility class

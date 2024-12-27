@@ -1,0 +1,21 @@
+﻿Author: Joseph Daprano
+Date: 9/28/2023
+Sprint 2
+Name of .cs file: Mario State Concrete Classes (regMario, bigMario, fireMario, etc)
+Author of .cs file: Aaron Zhang
+
+- to decrease state explosion, may want to do a Mario state machine instead or some hybrid approach
+	between pure state pattern and pure state machine
+
+- May want to pull Update and Draw methods out of states altogether for reasons discussed in class code review
+
+- DeadMario.cs:
+	- should implement some kind of falling off the screen
+
+- In big mario and fire mario states, when mario takes damage when running he goes down a health level but keeps running;
+	I think in the game he kind of freezes for a second before being able to move again
+
+- Not entirely sure, but I think there are some things that can fully kill fire mario or big mario (certain fires,
+	projectiles, etc.), so should add checks as to how damage is being taken at some point
+
+- Overall very sleek code, names are clear and concise which avoids need for excessive documentation or commenting

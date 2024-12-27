@@ -1,0 +1,10 @@
+﻿Author: Joseph Daprano
+Date: 11/6/2023
+Sprint 4
+Reviewing: Utility Classes Implementation
+Author of .cs file: Aaron Zhang
+
+    Good use of utility classes for handling camera magic numbers
+    Same for goombas, blocks, sprites, states etc (all relatively similar)
+    - Good adhering to formatting, capitalization conventions, etc.
+    Good decision having the utility classes be singleton instances

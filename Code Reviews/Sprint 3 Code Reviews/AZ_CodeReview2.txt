@@ -1,0 +1,13 @@
+﻿Author: Aaron Zhang
+Date: 10/19/2023
+Sprint 3
+Code being reviewed: Controller.cs
+Author of code being reviewed: Ella Langenderfer
+Number of minutes: 25
+
+    Good protection of variable hasInput. Reduces coupling by only being able to request the value of the variable instead of directly reaching into the class
+    It seems hasInput is always going to be true, since the else-statement assigns hasInput = true. Is it supposed to be else-if? Otherwise, there doesn't seem to be a reason to ever mark hasInput as false.
+    Considering cardinality, it seems that each controller is coupled to one instance of Mario. Allows for multiple players since each player will have their own controller.
+    If we decided to implement multiple controllers for one Mario, the current implementation will be difficult to maintain. We will need more if-statements. Consider data driving the Update() method by iterating through a list of controllers.
+    PlayerIndex.One indicates this is only for player 1. May be an issue for multiple players, since not everyone will be player 1.
+    Seems that KeyboardControls also implements Vibrate() (no actual code present since keyboards do not vibrate). Could instead just call a list of the controllers and tell them to vibrate if connected. Currently, this only checks one gamepad for vibration.

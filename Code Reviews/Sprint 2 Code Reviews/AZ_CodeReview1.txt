@@ -1,0 +1,20 @@
+﻿Author: Aaron Zhang
+Date: 9/25/2023
+Sprint 2
+Name of .cs file: RightMovingGoomba.cs, LeftMovingGoomba.cs, FlippedGoomba.cs, StompedGoomba.cs
+Author of .cs file: Joseph Daprano
+Number of minutes: 25
+
+Both:
+- Line 13: Both files should be using the interface IEnemy instead of the concrete class Goomba
+- Line 16: Same thing as before, use IEnemy
+
+LeftMovingGoomba/RightMovingGoomba:
+- Methods are named appropriately and make sense
+- Method calls are simple to read
+	- No comments necessary explaining what occurs in the method
+
+FlippedGoomba/StompedGoomba:
+- Methods with no code have sufficient comments to describe why the method is empty
+- Behavior is too similar between these states
+- FlippedGoomba may need code for changing the position of the Goomba

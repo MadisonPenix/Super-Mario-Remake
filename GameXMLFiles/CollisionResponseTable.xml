@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Collision>
+
+	<CollisionType collider ="Mario" collidee ="Block">
+		<Left>
+			<Command type = "Mario" command = "MovePlayerLeft"/>
+		</Left>
+		<Right>
+			<Command type ="Mario" command ="MovePlayerRight"/>
+		</Right>
+		<Top>
+			<Command type ="Mario" command ="MovePlayerUp"/>
+		</Top>
+		<Down>
+			<Command type ="Mario" command ="MovePlayerDown"/>
+			<Command type ="Block" command ="HitBlock"/>
+		</Down>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="Enemy">
+		<Top>
+			<Command type="Enemy" command="DamageEnemy"/>
+			<Command type="Mario" command="BouncePlayer"/>
+		</Top>
+		<Null>
+			<Command type="Mario" command="DamagePlayer"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="Pipe">
+		<Left>
+			<Command type = "Mario" command = "MovePlayerLeft"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Left>
+		<Right>
+			<Command type ="Mario" command ="MovePlayerRight"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Right>
+		<Top>
+			<Command type ="Mario" command ="MovePlayerUp"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Top>
+		<Down>
+			<Command type ="Mario" command ="MovePlayerDown"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Down>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="FireFlower">
+		<Null>
+			<CollisionType type="Mario" command="FireUp"/>
+			<CollisionType type="FireFlower" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="Flagpole">
+		<Null>
+			<CollisionType type="Mario" command="DescendFlagpole"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="Mushroom">
+		<Null>
+			<CollisionType type="Mario" command="MushroomUp"/>
+			<CollisionType type="Mushroom" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="Star">
+		<Null>
+			<CollisionType type="Mario" command="StarUp"/>
+			<CollisionType type="Star" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="Coin">
+		<Null>
+			<CollisionType type="Coin" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Mario" collidee ="ExtraLife">
+		<Null>
+			<CollisionType type="ExtraLife" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Projectile" collidee ="Enemy">
+		<Null>
+			<CollisionType type="Enemy" command="DamageEnemy"/>
+			<CollisionType type="Projectile" command="DeleteProjectile"/>
+		</Null>
+	</CollisionType>
+
+
+	<CollisionType collider ="Projectile" collidee ="Block">
+		<Top>
+			<CollisionType type="Projectile" command="BounceProjectile"/>
+		</Top>
+		<Down>
+			<CollisionType type="Projectile" command="BounceProjectile"/>
+		</Down>
+		<Null>
+			<CollisionType type="Projectile" command="DeleteProjectile"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Projectile" collidee ="Pipe">
+		<Top>
+			<CollisionType type="Projectile" command="BounceProjectile"/>
+		</Top>
+		<Down>
+			<CollisionType type="Projectile" command="BounceProjectile"/>
+		</Down>
+		<Null>
+			<CollisionType type="Projectile" command="DeleteProjectile"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Enemy" collidee ="Enemy">
+		<Null>
+			<CollisionType type="Enemy" command="ChangeEnemyDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Enemy" collidee ="Block">
+		<Top>
+			<CollisionType type="Enemy" command="MoveEnemyUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Enemy" command="ChangeEnemyDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="Enemy" collidee ="Pipe">
+		<Top>
+			<CollisionType type="Enemy" command="MoveEnemyUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Enemy" command="ChangeEnemyDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Coin" collidee ="Block">
+		<Top>
+			<CollisionType type="Coin" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Coin" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Coin" collidee ="Pipe">
+		<Top>
+			<CollisionType type="Coin" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Coin" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "ExtraLife" collidee ="Block">
+		<Top>
+			<CollisionType type="ExtraLife" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="ExtraLife" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "ExtraLife" collidee ="Pipe">
+		<Top>
+			<CollisionType type="ExtraLife" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="ExtraLife" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "FireFlower" collidee ="Block">
+		<Top>
+			<CollisionType type="FireFlower" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="FireFlower" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "FireFlower" collidee ="Pipe">
+		<Top>
+			<CollisionType type="FireFlower" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="FireFlower" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Flagpole" collidee ="Block">
+		<Top>
+			<CollisionType type="Flagpole" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Flagpole" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Flagpole" collidee ="Pipe">
+		<Top>
+			<CollisionType type="Flagpole" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Flagpole" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Star" collidee ="Block">
+		<Top>
+			<CollisionType type="Star" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Star" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Star" collidee ="Pipe">
+		<Top>
+			<CollisionType type="Star" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Star" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Mushroom" collidee ="Block">
+		<Top>
+			<CollisionType type="Mushroom" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Mushroom" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider = "Mushroom" collidee ="Pipe">
+		<Top>
+			<CollisionType type="Mushroom" command="MoveItemUp"/>
+		</Top>
+		<Null>
+			<CollisionType type="Mushroom" command="ChangeItemDirection"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="StarMario" collidee ="Block">
+		<Left>
+			<CollisionType type="StarMario" command="MovePlayerLeft"/>
+		</Left>
+		<Right>
+			<CollisionType type="StarMario" command="MovePlayerRight"/>
+		</Right>
+		<Top>
+			<CollisionType type="StarMario" command="MovePlayerUp"/>
+		</Top>
+		<Down>
+			<CollisionType type="StarMario" command="MovePlayerDown"/>
+			<CollisionType type="Block" command="HitBlock"/>
+		</Down>
+	</CollisionType>
+
+	<CollisionType collider ="StarMario" collidee ="Pipe">
+		<Left>
+			<Command type = "StarMario" command = "MovePlayerLeft"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Left>
+		<Right>
+			<Command type ="StarMario" command ="MovePlayerRight"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Right>
+		<Top>
+			<Command type ="StarMario" command ="MovePlayerUp"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Top>
+		<Down>
+			<Command type ="StarMario" command ="MovePlayerDown"/>
+			<Command type ="Pipe" command ="HitBlock"/>
+		</Down>
+	</CollisionType>
+
+	<CollisionType collider ="StarMario" collidee ="Enemy">
+		<Null>
+			<CollisionType type="Enemy" command="DamageEnemy"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="StarMario" collidee ="Mushroom">
+		<Null>
+			<CollisionType type="StarMario" command="MushroomUp"/>
+			<CollisionType type="Mushroom" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="StarMario" collidee ="Star">
+		<Null>
+			<CollisionType type="StarMario" command="StarUp"/>
+			<CollisionType type="Star" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="StarMario" collidee ="Coin">
+		<Null>
+			<CollisionType type="Coin" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+	<CollisionType collider ="StarMario" collidee ="ExtraLife">
+		<Null>
+			<CollisionType type="ExtraLife" command="DeleteItem"/>
+		</Null>
+	</CollisionType>
+
+</Collision>

@@ -1,0 +1,15 @@
+﻿Author: Brady Scott
+Date: 10/21/2023
+Sprint 3
+Code being reviewed: GamepadController.cs
+Author of code: Ella Langenderfer
+
+Code Readability:
+
+	- good use of comments. not too many where it's unreadable but enough to where
+	I get the general gist of whats happening.
+
+	- good naming of variables. it makes it very easy to understand what does what.
+	
+	- maybe shorten Update method to be several smaller methods that run.
+	This would make the code seem less and would make debugging easier.

@@ -1,0 +1,16 @@
+﻿Author of the code review: Madison Penix
+
+Date of the code review: 12/01/23
+
+Sprint number: 5
+
+Name of the .cs file being reviewed: LevelSelectScreen.cs
+
+Author of the .cs file being reviewed: Joseph Daprano
+
+Time Taken To Review: 15 min
+
+Specific comments on code quality:
+	- Class is minimal and singular, which is good
+	- Like methods are organized together
+	- No magic numbers

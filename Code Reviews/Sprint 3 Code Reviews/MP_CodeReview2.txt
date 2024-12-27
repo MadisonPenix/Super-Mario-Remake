@@ -1,0 +1,17 @@
+﻿Author of the code review: Madison Penix
+
+Date of the code review: 10/19/2023 7:02pm
+
+Sprint number: 3
+
+Name of the .cs file being reviewed: StarMario.cs Refactored
+
+Author of the .cs file being reviewed: Aaron Zhang
+
+Time Taken To Review: 10 minutes
+
+Specific comments on code quality:
+	
+	- Magic number for the timer, will probably be transferred into an XML and the level loader
+	- Code is well-formatted and organized nicely
+	- Good use of Decorator Pattern to create Star Mario

@@ -1,0 +1,16 @@
+﻿Author: Joseph Daprano
+Date: 10/16/2023
+Sprint 3
+Code being reviewed: sprint 3 physics
+Author of code being reviewed: Brady Scott
+
+Functionality:
+
+    Overall looks pretty good, things fall in good arcs
+    It does look like mario can double jump, not sure if that was intentional or accidental
+    have to see it merged with collisisons to really see how it works but good so far
+
+Code Quality:
+
+    looks good overall, sleek and minimal code
+    follows proper naming and capitalization conventions and uses comments where necessary but not where they are not

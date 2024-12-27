@@ -1,0 +1,11 @@
+﻿Author: Brady Scott
+Date: 11/11/2023
+Sprint 4
+Code being reviewed: All utility classes
+Author of code being reviewed: Aaron Zhang
+Number of minutes: 15
+
+- Most have only gets which lets the class using to value to not modify it in runtime. This makes debugging easier.
+- Some do have private sets so make sure to get rid of those in the future
+- Could have some comments explaining what each data value mean, especially for some that have pixels/sec and things.
+- All classes are singleton pattern which makes it much easier to access and less memory to use. Well done

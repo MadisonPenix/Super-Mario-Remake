@@ -1,0 +1,26 @@
+﻿Author: Aidan Ormsbee
+Date: 11/9/2023
+Sprint 4
+Code being reviewed: XMLHandler.cs (Underworld additions)
+Author of code being reviewed: Brady Scott
+Number of minutes: 20
+
+- XMLHandler.cs (and other similar classes) added to new folder/namespace "LevelLoading", just adds some minor but nice-to-have organization to the project.
+
+- New method names don't match originals' naming convention. New methods are PascalCase and old ones are camelCase 
+	- PascalCase is C# convention so even though the naming is inconsistent I think the original methods should be changed to match your new ones
+
+- Lines 167 & 262: attribute.Value.ToString() can just be attribute.Value (and e.Value for 262)
+
+- Lot of nesting going on, which is hard to avoid with a parser
+	- some if-statements can probably be inverted to help get rid of at least a bit of the nesting and enhance readability
+
+- Line 315, is there a reason "Single" is used instead of "float"?
+
+- Decent amount of comments describing parts of code, but some methods without any could definitely use them
+	- could maybe use some more comments focusing more on the "why" than the "how"/"what" (for example, brief description of why "Single" was used)
+
+- Couple magic numbers in some places, not sure if they've been removed in the UtilityClasses branch already
+
+- Nitpicking aside, the class has obviously done well at its job of grabbing information from the XML and giving it to other classes
+	- most of the methods for parsing are broken up into smaller methods which greatly enhances the readability instead of cramming everything in one big "parse" method.

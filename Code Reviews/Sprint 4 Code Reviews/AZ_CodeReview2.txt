@@ -1,0 +1,15 @@
+﻿Author: Aaron Zhang
+Date: 11/9/2023
+Sprint 4
+Code being reviewed: GOverState.cs
+Author of code being reviewed: Ella Langenderfer
+Number of minutes: 15
+
+- Naming convention inconsistent. Use of snake case for some functions when using camel case the majority of the time
+- Continue and Quit functions have one single purpose. Follows S in SOLID
+- Update and Draw have single function to loop through components. Good for separating looping and the actual function.
+- Constructor is very large. Could consider splitting up the work into several functions
+- Magic strings would be problematic if we decide to change the text to something else
+	- GameUtility will fix this "shotgun surgery"
+- If we change where we want to place the text (ie no longer centered), the current implementation would make it difficult to do so
+	- Possibility of using GameUtility for offsets instead of dividing by 2

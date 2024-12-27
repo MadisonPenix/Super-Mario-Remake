@@ -1,0 +1,11 @@
+﻿Author: Ella Langenderfer
+Date: 9/29/2023
+Sprint 2
+Name of .cs file: Bowser
+Author of .cs file: Joseph Daprano
+
+-While I like how bowser only has ChangeDirection instead of having both FaceLeft and FaceRight, 
+    I can see how this implementation could cause issues in the future when trying to give bowser AI 
+-There is a comment indicating that the bowser movement is a temporary implementation
+-The variables and methods are named well; they are very clear
+-In the future we can look towards giving bowser AI, instead of having the attack on a basic timer

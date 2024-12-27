@@ -1,0 +1,13 @@
+﻿Author: Brady Scott
+Date: 11/11/2023
+Sprint 4
+Code being reviewed: HUD.cs
+Author of code being reviewed: Aidan Ormsbee
+Number of minutes: 7
+
+- Follows C# naming conventions and is very minimal code.
+- Single Responsiblity code that demonstrates low coupling and high cohesion
+- Most of the code is in Draw (as it is all text being updated), and others are methods to update text variables
+- Provides a method for any use that can pad a number with zeros, very nice
+- Almost completly data driven with some magic numbers at initialization of default values.
+- Overall no complaints on code quality as it does its job and it does it well

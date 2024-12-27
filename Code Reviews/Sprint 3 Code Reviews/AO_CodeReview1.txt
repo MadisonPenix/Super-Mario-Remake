@@ -1,0 +1,12 @@
+﻿Author: Aidan Ormsbee
+Date: 10/16/2023
+Sprint 3
+Code being reviewed: CollisionResponse.cs
+Author of code: Aaron Zhang
+Number of minutes: 20
+
+    Naming conventions are fine, a lot of them are basic (not sure if that's the right word but I meant the stuff like "Type[] types", "ICommand cmd", etc. that aren't necessarily "descriptive" but I don't think they need to be much more than that and I'm not sure what to name them otherwise).
+    Comments explaining each part of FillCollisionTable() help divide the code (increase readability) and are brief enough to keep things simple.
+    Code is consistent throughout class. Similar code for adding different collision types to table are handled similarly, as expected.
+    Cyclomatic complexity is kept low (no excessive indentation)
+    Overall readability of class is solid, code is organized well

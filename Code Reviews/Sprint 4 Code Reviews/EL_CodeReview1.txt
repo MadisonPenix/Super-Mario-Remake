@@ -1,0 +1,11 @@
+﻿Author: Ella Langenderfer
+Date: 11/7/2023
+Sprint 4
+Reviewing: SoundFXStorage.cs
+Author of .cs file: Aidan Ormsbee
+Time: 10 minutes
+
+    naming conventions are consistent throughout the file
+    the names of each sound effect are very clear in what they represent-this makes the file easy to read
+    the file would be a bit more readable if the sound playing functions were in the same order as the sound effects being initialized, they are close to being in the same order but not quite
+    the variable declarations are very close to being in alphabetical order but are not completely there

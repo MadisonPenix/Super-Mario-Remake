@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level name="AllObjectsLevel">
+	<Players collidable="1">
+		<Mario>
+			<Position>1 1</Position>
+		</Mario>
+	</Players>
+	
+	<Blocks collidable="1">
+		<BrickBlock>
+			<Position>24 2</Position>
+		</BrickBlock>
+		
+		<PipeBlock>
+			<Position>18 2</Position>
+		</PipeBlock>
+
+		<QuestionBlock>
+			<Position>22 2</Position>
+			<Items>
+				<PowerMushroom>
+					<Position>22 2</Position>
+				</PowerMushroom>
+			</Items>
+		</QuestionBlock>
+		
+		<CrackedBrickBlock length="4">
+			<Position>3 3</Position>
+		</CrackedBrickBlock>
+		<CrackedBrickBlock>
+			<Position>3 4</Position>
+		</CrackedBrickBlock>
+		<CrackedBrickBlock>
+			<Position>7 4</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="4">
+			<Position>10 3</Position>
+		</CrackedBrickBlock>
+		<CrackedBrickBlock>
+			<Position>10 4</Position>
+		</CrackedBrickBlock>
+		<CrackedBrickBlock>
+			<Position>14 4</Position>
+		</CrackedBrickBlock>
+		
+		<SolidBlock length="100">
+			<Position>0 0</Position>
+		</SolidBlock>
+	</Blocks>
+
+	<Blocks collidable="0">
+		<SolidBlock length="100">
+			<Position>0 -1</Position>
+		</SolidBlock>
+	</Blocks>
+
+	<Items collidable="1">
+		<InvincibilityStar>
+			<Position>12 5</Position>
+		</InvincibilityStar>
+	</Items>
+	
+	<Enemies collidable="1">
+		<Goomba>
+			<Position>5 5</Position>
+		</Goomba>
+		
+		<Koopa>
+			<Position>28 5</Position>
+		</Koopa>
+
+		<Goomba>
+			<Position>8 5</Position>
+		</Goomba>
+
+	</Enemies>
+</Level>

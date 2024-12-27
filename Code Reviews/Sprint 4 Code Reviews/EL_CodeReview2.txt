@@ -1,0 +1,11 @@
+﻿Author: Ella Langenderfer
+Date: 11/10/2023
+Sprint 4
+Reviewing: XMLCollisionHandler.cs
+Author of .cs file: Madison Penix
+Time: 20 minutes
+
+-the code lacks comments explaining what the code does or what the functions do
+-Dictionaries and other variables are named very clearly
+-Each of the functions have an appropriate amount of capabilities and code
+-The code is well written and organized

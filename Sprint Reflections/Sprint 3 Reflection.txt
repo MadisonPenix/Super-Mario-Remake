@@ -1,0 +1,20 @@
+﻿For Sprint 3, the team made significant progress compared to the last sprint. The team decided to pursue a more structured approach
+to communication and collaboration. Holding weekly meetings improved the team's communication, which enhanced
+productivity by clearly defining and delegating tasks to members. However, the team can still improve on meeting earlier
+deadlines and communicating when a deadline is not going to be met.
+
+The decision to meet on a weekly basis proved to be a correct decision towards team cohesion. These regular interactions allowed
+updates, concerns, and tasks to be shared during a longer time session, allowing for more thoughtout solutions to occur. The
+improved communication resulted in clearly defined tasks, ensuring that each member had a clearly defined role in the sprint.
+
+Fall Break did interrupt the middle of the sprint, as the grader meeting was done hastily and there was not much progress being
+made during the break. However, due to the earlier deadlines that the team had set, most of the big implementations had been roughly
+programmed in, giving the groundwork for fixes/refactors in the following week.
+
+Time management is something that the team can work on. While the weekly meetings alleviated some of this, these meetings need to be
+backed up with completable timelines for the tasks. This was partially attempted during the first meeting of the sprint, but subsequent
+meetings did not allocate timelines for tasks. This led to a similar time crunch to the previous sprint. 
+
+To adjust for time management, members will attempt to proactively inform others when a deadline cannot be met. This ensures that
+problems can be addressed before they impede progress. During the weekly meetings, an emphasis will be placed on establishing timelines
+for tasks, ensuring that earlier deadlines can be met to give more time for refactoring.

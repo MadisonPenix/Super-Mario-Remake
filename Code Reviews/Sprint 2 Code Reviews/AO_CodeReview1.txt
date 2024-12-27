@@ -1,0 +1,24 @@
+﻿Author: Aidan Ormsbee
+Date: 9/29/2023
+Sprint 2
+Name of .cs file: AnimatedSprite.cs
+Author of .cs file: Brady Scott
+Number of minutes: 25
+
+- Naming conventions for members/fields and methods make sense and are named similarly to variables in other classes.
+	- i.e. 'spriteWidth', 'spriteHeight' are similar to SpriteFactory's constants (ex: KOOPA_HEIGHT, KOOPA_WIDTH)
+
+- Large number of fields leads to large number of parameters for the constructor, which can decrease readability a bit, though I'm not sure how to avoid it in this case.
+
+- Code isn't overly complex and is relatively simple, there aren't many control statements.
+	- Update() method has double-nested if-statements, but even then that isn't really a problem. It's just the most "complex" bit in terms of control flow but doesn't take away from the code's readability.
+	- Highest # of indentations = 3
+		- There's nothing really wrong with three indentations, maybe if there was four or five then that might be a problem, but this looks good.
+
+- Class size is under 100 lines even with a comfortable amount of white space which helps make the entire class much more readable.
+
+- Code is well-written and easy to understand as a person with very little prior C# experience.
+	- I guess if I could say anything about it, it would be to add more comments, but I think most of the class is easy to understand just from looking at the names of variables and methods.
+	- I wasn't sure what isFlipped was for at first, but that's really the only one I was confused about.
+
+- Overall thoughts: very simple/easy to understand yet functional code. Only a few things I noticed and that was because I felt like I should nitpick whatever I could. 

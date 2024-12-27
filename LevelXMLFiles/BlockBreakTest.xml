@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level name="BlockBreakTest">
+	<Players collidable="1">
+		<Mario>
+			<Position>1 1</Position>
+		</Mario>
+	</Players>
+
+	<Blocks collidable="1">
+		<BrickBlock>
+			<Position>2 4</Position>
+		</BrickBlock>
+		
+		<BrickBlock>
+			<Position>4 4</Position>
+		</BrickBlock>
+
+		<BrickBlock>
+			<Position>6 4</Position>
+		</BrickBlock>
+
+		<BrickBlock>
+			<Position>8 4</Position>
+		</BrickBlock>
+
+		<BrickBlock>
+			<Position>10 4</Position>
+		</BrickBlock>
+
+		<QuestionBlock>
+			<Position>12 4</Position>
+			<Items>
+				<PowerMushroom>
+					<Position>12 5</Position>
+				</PowerMushroom>
+			</Items>
+		</QuestionBlock>
+
+		<SolidBlock length="100">
+			<Position>0 0</Position>
+		</SolidBlock>
+	</Blocks>
+
+	<Blocks collidable="0">
+		<SolidBlock length="100">
+			<Position>0 -1</Position>
+		</SolidBlock>
+	</Blocks>
+
+</Level>

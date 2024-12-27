@@ -1,0 +1,15 @@
+For Sprint 3, the team made significant progress with some delays. The team continued holding the weekly meetings,
+although these meetings were mainly done virtually. These weekly meetings improved the team's communication. However,
+due to some delays in meeting deadlines, the team had a massive merge conflict at the end of the sprint, indicating
+the need to pursue eariler deadlines.
+
+Keeping with what worked in Sprint 3, the team kept holding regular weekly meetings. This allowed the team to properly
+communicate current conflicts that each member had and the next steps for the sprint.
+
+Similar to Sprint 4, time management is something that the team can work on. While the weekly meetings alleviated some 
+of this, we did not assign appropriate deadlines for the tasks. This resulted in progress delays, resulting in a massive
+merge time crunch, similar to what the team experienced in Sprint 2. 
+
+To adjust for time management, the team will consider rapidly adjusting priorities. If a certain feature is delayed
+for too long, the team will prioritize the completion of this feature depending on its impact to the entire project.
+For example, the HUD would have been prioritized sooner.

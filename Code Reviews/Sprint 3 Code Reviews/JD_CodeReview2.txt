@@ -1,0 +1,16 @@
+﻿Author: Joseph Daprano
+Date: 10/20/2023
+Sprint 3
+Code being reviewed: MenuState.cs
+Author of code: Ella Langenderfer
+
+- Functionality: 
+	- menus seem to work well, font is accurate to game
+	- game should start not paused, but unsure how to fix the crashing that happens if we do that
+	- Perhaps some kind of message about a future feature when clicking the 2-player game button on the start menu
+		instead of just nothing happening
+
+- Code Quality:
+	- capitalization and naming conventions are followed appropriately
+	- perhaps add a bit more whitespace for readability between sections of the code, it can be a little hard to read
+	- good minimalist implementation for functionality

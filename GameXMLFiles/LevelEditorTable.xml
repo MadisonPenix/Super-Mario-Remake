@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LevelEditor>
+	<Blocks>
+		<BrickBlock></BrickBlock>
+		<CrackedBrickBlock></CrackedBrickBlock>
+		<PipeBlocK></PipeBlocK>
+		<QuestionBlock></QuestionBlock>
+		<SolidBlock></SolidBlock>
+	</Blocks>
+	<Items>
+		<Coin></Coin>
+		<ExtraLifeMushroom></ExtraLifeMushroom>
+		<PowerMushroom></PowerMushroom>
+		<FireFlower></FireFlower>
+		<Flagpole></Flagpole>
+		<InvincibilityStar></InvincibilityStar>
+	</Items>
+	<Characters>
+		<Mario></Mario>
+		<Koopa></Koopa>
+		<Goomba></Goomba>
+	</Characters>
+</LevelEditor>

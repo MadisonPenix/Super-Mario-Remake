@@ -1,0 +1,25 @@
+﻿Author: Aidan Ormsbee
+Date: 10/20/2023
+Sprint 3
+Code being reviewed: XMLHandler.cs
+Author of code: Joseph Daprano
+
+Code Quality:
+
+	- parseXMLTree has many branches, increases cyclomatic complexity of class
+		- Cyc. Complexity value for method: 7
+		- parseXMLGameObject also has complexity of 4; these two parsing methods are noticeably more complex than others
+		- But given that the methods have to go through entire XML documents it isn't necessarily "unacceptably" complex, just something to optimize later if possible
+
+	- Comment on line 115 about replacing magic numbers; good planning for future sprints
+
+	- Use of dictionaries to store classes and game objects is solid 
+		- Main dictionary stores type of class as key and a separate dictionary as value, which holds the game objects for the given class type
+		- As far as XML is concerned, this is a nice way of storing everything and keeping them easily accessible
+		
+	- Not 100% sure where the specific values used in coordsToPixels come from for the calculations, but seems to work nicely
+
+	- Use of WriteLine for debugging, simple and effective choice
+		- Commented out correctly so the unnecessary code isn't run
+
+	- Using attributes in parseXMLTree could be replaced with GetType(String) and could help remove the need for the dictionaries

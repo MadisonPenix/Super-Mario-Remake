@@ -1,0 +1,18 @@
+﻿Author: Aaron Zhang
+Date: 9/28/2023
+Sprint 2
+Name of .cs file: KeyboardController.cs
+Author of .cs file: Ella Langenderfer
+
+- Should have explicit permission modifiers on internal variables
+	- Are these public or private?
+- Line 32-39: Use of concrete classes instead of the interface
+	- Should be using ICommand as the type
+- Constructor is too long
+	- Recommend instantiating and filling the keyMap dictionary in another method
+- Unsure why initialize method exists; nothing ever calls it
+
+- Hypothetical change: addition of the mouse as a controller for Mario
+	- Current implementation can support this change
+	- Since the dictionary only cares about keys -> action, this dictionary can be reused for mouse keys
+	- Would only need to add the dictionary.add lines for the mouse keys; no other lines are needed

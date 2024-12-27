@@ -1,0 +1,23 @@
+﻿Author: Brady Scott
+Date: 10/21/2023
+Sprint 3
+Code being reviewed: GameState.cs
+Author of code: Ella Langenderfer
+
+Code Quality:
+
+	- nice and simple. Uses booleans for most control flow and for each loops to iterate.
+	This helps with readability as well as debugging.
+
+	- slightly couples pause functionality with the overall game class. Makes class more of 
+	a wrapper on top of the original game class. This can be good for now, but in the future could
+	cause problems with having to go through this specific implementation in order to implement 
+	new features.
+
+	- Loads in content within object constructor. This can be good and bad. On one hand,
+	it lets the game state class itself choose what it wants but it also is now coupled with
+	a specific graphics device. I would load content in another place then import neccessary
+	textures within constructor.
+
+	- Good cohesion. Lots of classes do what they are specifically told to do and there are no
+	"god classes". Lets code be very reusable for future sprints.

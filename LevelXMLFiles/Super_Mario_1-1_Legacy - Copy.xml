@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level name="Super_Mario_1-1">
+
+	<Players collidable="1">
+		<Mario>
+			<Position>1 1</Position>
+		</Mario>
+	</Players>
+
+	<Blocks collidable="1">
+		<BrickBlock height="20">
+			<Position>-1 0</Position>
+		</BrickBlock>
+		<CrackedBrickBlock length="69">
+			<Position>0 0</Position>
+		</CrackedBrickBlock>
+		<QuestionBlock>
+			<Position>16 4</Position>
+		</QuestionBlock>
+
+		<BrickBlock>
+			<Position>20 4</Position>
+		</BrickBlock>
+		<QuestionBlock>
+			<Position>21 4</Position>
+			<Items>
+				<PowerMushroom>
+					<Position>21 4</Position>
+				</PowerMushroom>
+			</Items>
+		</QuestionBlock>
+		<BrickBlock>
+			<Position>22 4</Position>
+		</BrickBlock>
+		<QuestionBlock>
+			<Position>22 8</Position>
+		</QuestionBlock>
+		<QuestionBlock>
+			<Position>23 4</Position>
+		</QuestionBlock>
+		<BrickBlock>
+			<Position>24 4</Position>
+		</BrickBlock>
+
+		<PipeBlock>
+			<Position>28 2</Position>
+		</PipeBlock>
+		<PipeBlock>
+			<Position>38 2</Position>
+		</PipeBlock>
+		<PipeBlock>
+			<Position>46 2</Position>
+		</PipeBlock>
+		<PipeBlock>
+			<Position>58 2</Position>
+			<Portal>Top</Portal>
+			<Teleport>501 12</Teleport>
+		</PipeBlock>
+
+		<CrackedBrickBlock length="15">
+			<Position>71 0</Position>
+		</CrackedBrickBlock>
+		<BrickBlock>
+			<Position>78 4</Position>
+		</BrickBlock>
+		<QuestionBlock>
+			<Position>79 4</Position>
+			<Items>
+				<FireFlower>
+					<Position>79 4</Position>
+				</FireFlower>
+			</Items>
+		</QuestionBlock>
+		<BrickBlock>
+			<Position>80 4</Position>
+		</BrickBlock>
+		<BrickBlock length="9">
+			<Position>81 8</Position>
+		</BrickBlock>
+
+
+		<CrackedBrickBlock length="67">
+			<Position>89 0</Position>
+		</CrackedBrickBlock>
+		<BrickBlock length="3">
+			<Position>93 8</Position>
+		</BrickBlock>
+		<QuestionBlock>
+			<Position>96 8</Position>
+		</QuestionBlock>
+		<BrickBlock>
+			<Position>96 4</Position>
+		</BrickBlock>
+		<BrickBlock length="2">
+			<Position>102 4</Position>
+		</BrickBlock>
+
+		<QuestionBlock>
+			<Position>108 4</Position>
+			<Items>
+				<InvincibilityStar>
+					<Position>108 4</Position>
+				</InvincibilityStar>
+			</Items>
+		</QuestionBlock>
+		<QuestionBlock>
+			<Position>111 4</Position>
+		</QuestionBlock>
+		<QuestionBlock>
+			<Position>111 8</Position>
+		</QuestionBlock>
+		<QuestionBlock>
+			<Position>114 4</Position>
+		</QuestionBlock>
+
+		<BrickBlock>
+			<Position>120 4</Position>
+		</BrickBlock>
+		<BrickBlock length="3">
+			<Position>123 8</Position>
+		</BrickBlock>
+
+		<BrickBlock>
+			<Position>131 8</Position>
+		</BrickBlock>
+		<QuestionBlock>
+			<Position>132 8</Position>
+		</QuestionBlock>
+		<QuestionBlock>
+			<Position>133 8</Position>
+		</QuestionBlock>
+		<BrickBlock>
+			<Position>134 8</Position>
+		</BrickBlock>
+		<BrickBlock length="2">
+			<Position>132 4</Position>
+		</BrickBlock>
+
+		<SolidBlock length="4">
+			<Position>137 1</Position>
+		</SolidBlock>
+		<SolidBlock length="3">
+			<Position>138 2</Position>
+		</SolidBlock>
+		<SolidBlock length="2">
+			<Position>139 3</Position>
+		</SolidBlock>
+		<SolidBlock>
+			<Position>140 4</Position>
+		</SolidBlock>
+
+		<SolidBlock length="4">
+			<Position>143 1</Position>
+		</SolidBlock>
+		<SolidBlock length="3">
+			<Position>143 2</Position>
+		</SolidBlock>
+		<SolidBlock length="2">
+			<Position>143 3</Position>
+		</SolidBlock>
+		<SolidBlock>
+			<Position>143 4</Position>
+		</SolidBlock>
+
+		<CrackedBrickBlock length="69">
+			<Position>158 0</Position>
+		</CrackedBrickBlock>
+		
+		<SolidBlock length="5">
+			<Position>151 1</Position>
+		</SolidBlock>
+		<SolidBlock length="4">
+			<Position>152 2</Position>
+		</SolidBlock>
+		<SolidBlock length="3">
+			<Position>153 3</Position>
+		</SolidBlock>
+		<SolidBlock length="2">
+			<Position>154 4</Position>
+		</SolidBlock>
+
+		<SolidBlock length="4">
+			<Position>158 1</Position>
+		</SolidBlock>
+		<SolidBlock length="3">
+			<Position>158 2</Position>
+		</SolidBlock>
+		<SolidBlock length="2">
+			<Position>158 3</Position>
+		</SolidBlock>
+		<SolidBlock>
+			<Position>158 4</Position>
+		</SolidBlock>
+
+		<PipeBlock>
+			<Position>164 2</Position>
+		</PipeBlock>
+		<BrickBlock length="2">
+			<Position>169 4</Position>
+		</BrickBlock>
+		<QuestionBlock>
+			<Position>171 4</Position>
+		</QuestionBlock>
+		<BrickBlock>
+			<Position>172 4</Position>
+		</BrickBlock>
+		<PipeBlock>
+			<Position>180 2</Position>
+		</PipeBlock>
+
+		<SolidBlock length="9">
+			<Position>182 1</Position>
+		</SolidBlock>
+		<SolidBlock length="8">
+			<Position>183 2</Position>
+		</SolidBlock>
+		<SolidBlock length="7">
+			<Position>184 3</Position>
+		</SolidBlock>
+		<SolidBlock length="6">
+			<Position>185 4</Position>
+		</SolidBlock>
+		<SolidBlock length="5">
+			<Position>186 5</Position>
+		</SolidBlock>
+		<SolidBlock length="4">
+			<Position>187 6</Position>
+		</SolidBlock>
+		<SolidBlock length="3">
+			<Position>188 7</Position>
+		</SolidBlock>
+		<SolidBlock length="2">
+			<Position>189 8</Position>
+		</SolidBlock>
+
+		<SolidBlock>
+			<Position>198 1</Position>
+		</SolidBlock>
+
+	</Blocks>
+
+	<Blocks collidable="0">
+		<CrackedBrickBlock length="69">
+			<Position>0 -1</Position>
+		</CrackedBrickBlock>
+		
+		<CrackedBrickBlock length="15">
+			<Position>71 -1</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="67">
+			<Position>89 -1</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="69">
+			<Position>158 -1</Position>
+		</CrackedBrickBlock>
+	</Blocks>
+
+	<Enemies collidable="1">
+		<Goomba>
+			<Position>22 1</Position>
+		</Goomba>
+
+		<Goomba>
+			<Position>41 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>49 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>50 1</Position>
+		</Goomba>
+
+		<Goomba>
+			<Position>81 9</Position>
+		</Goomba>
+		<Goomba>
+			<Position>83 9</Position>
+		</Goomba>
+
+		<Goomba>
+			<Position>101 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>99 1</Position>
+		</Goomba>
+
+		<Koopa>
+			<Position>112 3</Position>
+		</Koopa>
+
+		<Goomba>
+			<Position>119 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>120 1</Position>
+		</Goomba>
+
+		<Goomba>
+			<Position>128 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>130 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>132 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>134 1</Position>
+		</Goomba>
+
+		<Goomba>
+			<Position>175 1</Position>
+		</Goomba>
+		<Goomba>
+			<Position>177 1</Position>
+		</Goomba>
+		
+	</Enemies>
+	
+	<!-- Beginning of Underworld Section-->
+	<Blocks collidable="1">
+		<CrackedBrickBlock length="3">
+			<Position>501 0</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="2">
+			<Position>511 0</Position>
+		</CrackedBrickBlock>
+
+		<BrickBlock height="12">
+			<Position>500 1</Position>
+		</BrickBlock>
+
+		<BrickBlock length="8">
+			<Position>504 12</Position>
+		</BrickBlock>
+
+		<BrickBlock length="8">
+			<Position>504 3</Position>
+		</BrickBlock>
+
+		<BrickBlock height="2">
+			<Position>504 1</Position>
+		</BrickBlock>
+
+		<BrickBlock height="2">
+			<Position>511 1</Position>
+		</BrickBlock>
+
+		<PipeBlock>
+			<Position>514 2</Position>
+			<Portal>Top</Portal>
+			<Teleport>164 3</Teleport>
+		</PipeBlock>
+
+	</Blocks>
+
+	<Blocks collidable ="0">
+		<CrackedBrickBlock>
+			<Position>500 0</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="18">
+			<Position>500 -1</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="7">
+			<Position>504 0</Position>
+		</CrackedBrickBlock>
+
+		<CrackedBrickBlock length="5">
+			<Position>513 0</Position>
+		</CrackedBrickBlock>
+
+		<BrickBlock length="6">
+			<Position>505 2</Position>
+		</BrickBlock>
+
+		<BrickBlock length="6">
+			<Position>505 1</Position>
+		</BrickBlock>
+
+	</Blocks>
+
+
+	<Items collidable="1">
+		<Coin length="7">
+			<Position>504 4</Position>
+		</Coin>
+
+		<Coin length="7">
+			<Position>504 6</Position>
+		</Coin>
+
+		<Coin length="5">
+			<Position>505 8</Position>
+		</Coin>
+
+		<Flagpole>
+			<Position>198 10</Position>
+		</Flagpole>
+	</Items>
+	
+</Level>

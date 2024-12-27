@@ -1,0 +1,11 @@
+﻿Author: Aaron Zhang
+Date: 11/6/2023
+Sprint 4
+Code being reviewed: BlockPiece.cs
+Author of code being reviewed: Aidan Ormsbee
+Number of minutes: 15
+
+    Naming convention is inconsistent in the file. There are instances of both pascal case and camel case. The code should stick to one convention (ideally pascal case, since this follows C# conventions).
+    Is accelAmount supposed to be publicly set? If not, the modifier of "set" should be private.
+    Update and Draw have only one job and let the minions do the rest. This is good.
+    No magic numbers in the file. Everything is loaded in through data (the constructor).

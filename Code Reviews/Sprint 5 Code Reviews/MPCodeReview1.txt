@@ -1,0 +1,18 @@
+﻿Author of the code review: Madison Penix
+
+Date of the code review: 12/01/23
+
+Sprint number: 5
+
+Name of the .cs file being reviewed: LevelEditorPauseMenu.cs
+
+Author of the .cs file being reviewed: Ella 
+
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on what is readable and what is not:
+	- Good use of comments throughout class to know exactly what each piece does
+	
+
+
+	

@@ -1,0 +1,12 @@
+﻿Author: Ella Langenderfer
+Date: 9/29/2023
+Sprint 2
+Name of .cs file: RegMarioStateMachine
+Author of .cs file: Aaron Zhang
+Number of Minutes: 20
+
+- Internal variables have appropriate permission modifiers as discussed in class
+-The sprites have comments labelling their category
+-The movement methods have comments explaining that a state change occurs here
+-Down and GetIndices don't have any comments explaining what they do
+-Empty methods contain a comment explaining why they are empty

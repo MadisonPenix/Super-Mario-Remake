@@ -1,0 +1,24 @@
+Author of the code review: Madison Penix
+
+Date of the code review: 09/29/2023 11:10 pm
+
+Sprint number: 2
+
+Name of the .cs file being reviewed: Coin.cs, ExtraLifeMushroom.cs, FireFlower.cs, InvicibilityStar.cs, PowerMushroom.cs
+
+Author of the .cs file being reviewed: Aiden Ormsbee
+
+Number of minutes taken to complete the review: 17
+
+Specific comments on what is readable and what is not:
+
+	Coin.cs, ExtraLifeMushroom.cs, FireFlower.cs, InvicibilityStar.cs:
+	- methods of class are very simple and easy to understand
+	- great use of using comments for future implementations
+	- a comment could be made for movementSpeed to clarify what variable is referring to
+
+	FireFlower.cs, PowerMushroom.cs:
+	- Two different constructors, could be a typo, or if not, needs a comment explaining the different uses for them
+
+
+	

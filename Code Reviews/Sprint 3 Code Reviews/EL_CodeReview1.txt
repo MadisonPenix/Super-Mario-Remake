@@ -1,0 +1,12 @@
+﻿Author: Ella Langenderfer
+Date: 10/17/23
+Sprint 3
+Code being reviewed: CollisionDetection.cs
+Author of code: Madison Penix
+Minutes: 15
+
+-Good naming conventions, it is very clear what each name represents
+-Typically when one method calls another, that method is placed next; this helps with readability
+-There are comments above each method explaining what they do, but not any comments inside of the methods. These comments are descriptive and clear
+
+    Code is consistent and organized well

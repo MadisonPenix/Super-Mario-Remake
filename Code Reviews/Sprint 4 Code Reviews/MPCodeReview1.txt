@@ -1,0 +1,20 @@
+﻿Author of the code review: Madison Penix
+
+Date of the code review: 11/10/23
+
+Sprint number: 4
+
+Name of the .cs file being reviewed: Koopa.cs
+
+Author of the .cs file being reviewed: Joseph Daprano
+
+Number of minutes taken to complete the review: 15 minutes
+
+Specific comments on what is readable and what is not:
+	- Koopa class is consistent with other enemy classes
+	- Class is relatively small and easily understable - methods are easily understandable
+	- Naming conventions are good
+	- 
+
+
+	

@@ -1,0 +1,11 @@
+﻿Author: Aaron Zhang
+Date: 10/16/2023
+Sprint 3
+Code being reviewed: GameObjectManager.cs
+Author of code being reviewed: Joseph Daprano
+Number of minutes: 15
+
+    Naming convention is inconsistent in the file; this makes it difficult to read sometimes
+    Consider sticking to Pascal case instead of camel case, since most of the functions follow Pascal case
+    Line 22: Could just have the same variable name and use "this.gameObjects" instead when assigning the value
+    Two nested loops for Update and Draw is fine; they don't do too much work aside from just iterating

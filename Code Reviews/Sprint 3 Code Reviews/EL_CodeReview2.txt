@@ -1,0 +1,7 @@
+﻿Author: Ella Langenderfer
+Date: 10/21/2023
+Sprint 3
+Code being reviewed: sprint 3 BlockClasses
+Author of code being reviewed: Aidan Ormsbee
+
+BrickBlock has detailed comments marking where work needs to be done in the future and how it will get done. All of the blocks appear on the screen as they should. The variables follow good naming conventions and have very clear names for what they represent. The methods are also named very clearly. Although they are currently lacking functionality, it is still clear what they will accomplish in the future. Some of the other block classes are very much lacking functionality and it is not made clear what functionality will be in place in the future. 

@@ -1,0 +1,15 @@
+﻿Author: Joseph Daprano
+Date: 9/28/2023
+Sprint 2
+Name of .cs file: Block Concrete Classes
+Author of .cs file: Aiden Ormsbee
+
+- Not fully sure what the practical differences are between active and inactive question blocks; the classes look mostly identical
+
+- Good following of naming and capitalization conventions; some of the names of states and sprites are a bit long (CrackedBrickBlockDefaultState, etc.)
+	but other than that code is easy to read and understand
+
+- Ignore this if you have a valid reason for setting it up this way, but there seems to be a lot of duplicate code between the classes
+	with maybe the Interactable boolean being changed
+
+- BlockList class looks good, not sure if it works at the time of my writing this but it seems like it should be fine. 

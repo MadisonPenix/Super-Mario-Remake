@@ -1,0 +1,30 @@
+CODE REVIEWS
+
+Readability...:
+Author: Brady Scott
+Date: 9/29
+Sprint 2
+.cs file: AnimatedSprite.cs
+Author of the .cs file: Madison Penix
+5 minutes taken
+Its all pretty readable because of how little code there is. Everything has a function within the code so theres no
+code that is fluff. The draw function could use a few comments explaining why you get some variables but other than that
+it is good.
+
+
+Code Quality...:
+Author: Brady Scott
+Date: 9/29
+Sprint 2
+.cs file: AnimatedSprite.cs
+Author of the .cs file: Madison Penix
+Rows, Texture, and Columns can all be private variables. This code also assumes a lot about the art assets as
+this code can only take a strip of sprites (starting from the top left of the sprite sheet) pre cut out.
+The sprites are drawn at an arbitrary location given which helps make the code base more data driven.
+This code also runs animation at every frame instead of at a given second interval.
+
+The class could use a GameTime object passed in and have a double variable act as a timer. Essentially, the variable
+would add how much time has passed since the last update call, then use that to see how long it has been (acting as a timer).
+This, when compared to an amount of seconds can be used to increase the animation frame at certain intervals. This change
+would be easy to implement with the person only having to create 2 private fields within the class and updating them every
+update method.
